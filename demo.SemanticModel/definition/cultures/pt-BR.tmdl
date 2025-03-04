@@ -2,8 +2,1751 @@ cultureInfo pt-BR
 
 	linguisticMetadata =
 			{
-			  "Version": "1.0.0",
-			  "Language": "en-US"
+			  "Version": "3.5.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "moeda": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "moedas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "moeda": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "moeda.moeda": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "moedas",
+			          "ConceptualProperty": "Moeda"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "moeda": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moeda name": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "NameType": "Name"
+			    },
+			    "moeda.nome": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "moedas",
+			          "ConceptualProperty": "Nome"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "moeda.formato": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "moedas",
+			          "ConceptualProperty": "Formato"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "formato": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "calendario"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "calendario": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "calendario",
+			          "ConceptualProperty": "Data"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "calendario.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "calendario",
+			          "ConceptualProperty": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.mes_ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "calendario",
+			          "ConceptualProperty": "MesAno"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mes ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "me ano": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "MesAno": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.mes_inicio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "calendario",
+			          "ConceptualProperty": "MesInicio"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mes inicio": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "me inicio": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "MesInicio": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "cotacoe": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cotacoes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cotacoe": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "cotacoe.moeda": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cotacoes",
+			          "ConceptualProperty": "Moeda"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "moeda": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "cotacoe.data_hora": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cotacoes",
+			          "ConceptualProperty": "DataHora"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data hora": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DataHora": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information hora": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact hora": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info hora": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic hora": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document hora": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure hora": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record hora": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "cotacoe.cotacao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cotacoes",
+			          "ConceptualProperty": "Cotacao"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cotacao": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "cotacoe.tipo_boletim": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cotacoes",
+			          "ConceptualProperty": "TipoBoletim"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo boletim": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TipoBoletim": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "cotacoe.data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cotacoes",
+			          "ConceptualProperty": "Data"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "cotacoe.cotação_dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "cotacoes",
+			          "ConceptualProperty": "Cotação do dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cotação dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cotação_dia": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "trasacoe": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "trasacoes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trasacoe": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "trasacoe.ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "trasacoes",
+			          "ConceptualProperty": "ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "trasacoe.data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "trasacoes",
+			          "ConceptualProperty": "Data"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "trasacoe.total": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "trasacoes",
+			          "ConceptualProperty": "Total"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "overall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "trasacoe.moeda": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "trasacoes",
+			          "ConceptualProperty": "Moeda"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "moeda": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "trasacoe.valor_total": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "trasacoes",
+			          "ConceptualProperty": "Valor Total"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor total": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Valor_Total": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "valor aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "valor overall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "trasacoe.cotação_corrigida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "trasacoes",
+			          "ConceptualProperty": "Cotação corrigida"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cotação corrigida": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "trasacoe.asTotal_r": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "trasacoes",
+			          "ConceptualProperty": "Total R$"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Total r$": {
+			            "LastModified": "2025-03-04T20:49:39.899Z"
+			          }
+			        },
+			        {
+			          "asTotal r$": {
+			            "State": "Deleted",
+			            "LastModified": "2025-03-04T20:49:39.899Z"
+			          }
+			        },
+			        {
+			          "astotal r dollar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "moeda_is_named_moeda": {
+			      "Binding": {
+			        "ConceptualEntity": "moedas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "moeda": {
+			          "Target": {
+			            "Entity": "moeda"
+			          }
+			        },
+			        "moeda.moeda": {
+			          "Target": {
+			            "Entity": "moeda.moeda"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "moeda"
+			            },
+			            "Name": {
+			              "Role": "moeda.moeda"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "moedas_are_names_IDs_of_moedas"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "moeda"
+			            },
+			            "Object": {
+			              "Role": "moeda.moeda"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "moedas_have_moedas"
+			        }
+			      ]
+			    },
+			    "moeda_has_nome": {
+			      "Binding": {
+			        "ConceptualEntity": "moedas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "moeda": {
+			          "Target": {
+			            "Entity": "moeda"
+			          }
+			        },
+			        "moeda.nome": {
+			          "Target": {
+			            "Entity": "moeda.nome"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "moeda"
+			            },
+			            "Object": {
+			              "Role": "moeda.nome"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "moedas_have_nome"
+			        }
+			      ]
+			    },
+			    "moeda_has_formato": {
+			      "Binding": {
+			        "ConceptualEntity": "moedas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "moeda": {
+			          "Target": {
+			            "Entity": "moeda"
+			          }
+			        },
+			        "moeda.formato": {
+			          "Target": {
+			            "Entity": "moeda.formato"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "moeda"
+			            },
+			            "Object": {
+			              "Role": "moeda.formato"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "moedas_have_formatos"
+			        }
+			      ]
+			    },
+			    "calendario_has_data": {
+			      "Binding": {
+			        "ConceptualEntity": "calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.data": {
+			          "Target": {
+			            "Entity": "calendario.data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_data"
+			        }
+			      ]
+			    },
+			    "calendario_has_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.ano": {
+			          "Target": {
+			            "Entity": "calendario.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_anos"
+			        }
+			      ]
+			    },
+			    "calendario_has_mes_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.mes_ano": {
+			          "Target": {
+			            "Entity": "calendario.mes_ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.mes_ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_mes_anos"
+			        }
+			      ]
+			    },
+			    "calendario_has_mes_inicio": {
+			      "Binding": {
+			        "ConceptualEntity": "calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.mes_inicio": {
+			          "Target": {
+			            "Entity": "calendario.mes_inicio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.mes_inicio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_mes_inicios"
+			        }
+			      ]
+			    },
+			    "cotacoe_has_data_hora": {
+			      "Binding": {
+			        "ConceptualEntity": "cotacoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cotacoe": {
+			          "Target": {
+			            "Entity": "cotacoe"
+			          }
+			        },
+			        "cotacoe.data_hora": {
+			          "Target": {
+			            "Entity": "cotacoe.data_hora"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cotacoe"
+			            },
+			            "Object": {
+			              "Role": "cotacoe.data_hora"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cotacoes_have_data_horas"
+			        }
+			      ]
+			    },
+			    "cotacoe_has_cotacao": {
+			      "Binding": {
+			        "ConceptualEntity": "cotacoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cotacoe": {
+			          "Target": {
+			            "Entity": "cotacoe"
+			          }
+			        },
+			        "cotacoe.cotacao": {
+			          "Target": {
+			            "Entity": "cotacoe.cotacao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cotacoe"
+			            },
+			            "Object": {
+			              "Role": "cotacoe.cotacao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cotacoes_have_cotacaos"
+			        }
+			      ]
+			    },
+			    "cotacoe_has_tipo_boletim": {
+			      "Binding": {
+			        "ConceptualEntity": "cotacoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cotacoe": {
+			          "Target": {
+			            "Entity": "cotacoe"
+			          }
+			        },
+			        "cotacoe.tipo_boletim": {
+			          "Target": {
+			            "Entity": "cotacoe.tipo_boletim"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cotacoe"
+			            },
+			            "Object": {
+			              "Role": "cotacoe.tipo_boletim"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cotacoes_have_tipo_boletims"
+			        }
+			      ]
+			    },
+			    "cotacoe_has_data": {
+			      "Binding": {
+			        "ConceptualEntity": "cotacoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cotacoe": {
+			          "Target": {
+			            "Entity": "cotacoe"
+			          }
+			        },
+			        "cotacoe.data": {
+			          "Target": {
+			            "Entity": "cotacoe.data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cotacoe"
+			            },
+			            "Object": {
+			              "Role": "cotacoe.data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cotacoes_have_data"
+			        }
+			      ]
+			    },
+			    "cotacoe_has_cotação_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "cotacoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cotacoe": {
+			          "Target": {
+			            "Entity": "cotacoe"
+			          }
+			        },
+			        "cotacoe.cotação_dia": {
+			          "Target": {
+			            "Entity": "cotacoe.cotação_dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cotacoe"
+			            },
+			            "Object": {
+			              "Role": "cotacoe.cotação_dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cotacoes_have_cotação_dia"
+			        }
+			      ]
+			    },
+			    "trasacoe_has_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "trasacoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trasacoe": {
+			          "Target": {
+			            "Entity": "trasacoe"
+			          }
+			        },
+			        "trasacoe.ID": {
+			          "Target": {
+			            "Entity": "trasacoe.ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "trasacoe"
+			            },
+			            "Object": {
+			              "Role": "trasacoe.ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trasacoes_have_ID"
+			        }
+			      ]
+			    },
+			    "trasacoe_has_data": {
+			      "Binding": {
+			        "ConceptualEntity": "trasacoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trasacoe": {
+			          "Target": {
+			            "Entity": "trasacoe"
+			          }
+			        },
+			        "trasacoe.data": {
+			          "Target": {
+			            "Entity": "trasacoe.data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "trasacoe"
+			            },
+			            "Object": {
+			              "Role": "trasacoe.data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trasacoes_have_data"
+			        }
+			      ]
+			    },
+			    "trasacoe_has_total": {
+			      "Binding": {
+			        "ConceptualEntity": "trasacoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trasacoe": {
+			          "Target": {
+			            "Entity": "trasacoe"
+			          }
+			        },
+			        "trasacoe.total": {
+			          "Target": {
+			            "Entity": "trasacoe.total"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "trasacoe"
+			            },
+			            "Object": {
+			              "Role": "trasacoe.total"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trasacoes_have_totals"
+			        }
+			      ]
+			    },
+			    "trasacoe_has_valor_total": {
+			      "Binding": {
+			        "ConceptualEntity": "trasacoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trasacoe": {
+			          "Target": {
+			            "Entity": "trasacoe"
+			          }
+			        },
+			        "trasacoe.valor_total": {
+			          "Target": {
+			            "Entity": "trasacoe.valor_total"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "trasacoe"
+			            },
+			            "Object": {
+			              "Role": "trasacoe.valor_total"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trasacoes_have_valor_total"
+			        }
+			      ]
+			    },
+			    "cotacoe_has_trasacoe_cotação_corrigida": {
+			      "Binding": {
+			        "ConceptualEntity": "cotacoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cotacoe": {
+			          "Target": {
+			            "Entity": "cotacoe"
+			          }
+			        },
+			        "trasacoe.cotação_corrigida": {
+			          "Target": {
+			            "Entity": "trasacoe.cotação_corrigida"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cotacoe"
+			            },
+			            "Object": {
+			              "Role": "trasacoe.cotação_corrigida"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cotacoes_have_cotação_corrigida"
+			        }
+			      ]
+			    },
+			    "calendario_has_trasacoe_asTotal_r": {
+			      "Binding": {
+			        "ConceptualEntity": "calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "trasacoe.asTotal_r": {
+			          "Target": {
+			            "Entity": "trasacoe.asTotal_r"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "trasacoe.asTotal_r"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_asTotal_r"
+			        }
+			      ]
+			    },
+			    "cotacoe_has_trasacoe_asTotal_r": {
+			      "Binding": {
+			        "ConceptualEntity": "cotacoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cotacoe": {
+			          "Target": {
+			            "Entity": "cotacoe"
+			          }
+			        },
+			        "trasacoe.asTotal_r": {
+			          "Target": {
+			            "Entity": "trasacoe.asTotal_r"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cotacoe"
+			            },
+			            "Object": {
+			              "Role": "trasacoe.asTotal_r"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cotacoes_have_asTotal_r"
+			        }
+			      ]
+			    },
+			    "moeda_has_trasacoe_asTotal_r": {
+			      "Binding": {
+			        "ConceptualEntity": "moedas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "moeda": {
+			          "Target": {
+			            "Entity": "moeda"
+			          }
+			        },
+			        "trasacoe.asTotal_r": {
+			          "Target": {
+			            "Entity": "trasacoe.asTotal_r"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "moeda"
+			            },
+			            "Object": {
+			              "Role": "trasacoe.asTotal_r"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "moedas_have_asTotal_r"
+			        }
+			      ]
+			    },
+			    "trasacoe_has_asTotal_r": {
+			      "Binding": {
+			        "ConceptualEntity": "trasacoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trasacoe": {
+			          "Target": {
+			            "Entity": "trasacoe"
+			          }
+			        },
+			        "trasacoe.asTotal_r": {
+			          "Target": {
+			            "Entity": "trasacoe.asTotal_r"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "trasacoe"
+			            },
+			            "Object": {
+			              "Role": "trasacoe.asTotal_r"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trasacoes_have_asTotal_r"
+			        }
+			      ]
+			    },
+			    "cotacoe_has_moeda": {
+			      "Binding": {
+			        "ConceptualEntity": "cotacoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cotacoe": {
+			          "Target": {
+			            "Entity": "cotacoe"
+			          }
+			        },
+			        "moeda": {
+			          "Target": {
+			            "Entity": "moeda"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cotacoe"
+			            },
+			            "Object": {
+			              "Role": "moeda"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cotacoes_have_moedas"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "moeda"
+			            },
+			            "Object": {
+			              "Role": "cotacoe"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "moedas_have_cotacoes"
+			        }
+			      ]
+			    },
+			    "cotacoe_has_calendario": {
+			      "Binding": {
+			        "ConceptualEntity": "cotacoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "cotacoe": {
+			          "Target": {
+			            "Entity": "cotacoe"
+			          }
+			        },
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "cotacoe"
+			            },
+			            "Object": {
+			              "Role": "calendario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "cotacoes_have_calendarios"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "cotacoe"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_cotacoes"
+			        }
+			      ]
+			    },
+			    "trasacoe_has_moeda": {
+			      "Binding": {
+			        "ConceptualEntity": "trasacoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trasacoe": {
+			          "Target": {
+			            "Entity": "trasacoe"
+			          }
+			        },
+			        "moeda": {
+			          "Target": {
+			            "Entity": "moeda"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "trasacoe"
+			            },
+			            "Object": {
+			              "Role": "moeda"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trasacoes_have_moedas"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "moeda"
+			            },
+			            "Object": {
+			              "Role": "trasacoe"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "moedas_have_trasacoes"
+			        }
+			      ]
+			    },
+			    "trasacoe_has_calendario": {
+			      "Binding": {
+			        "ConceptualEntity": "trasacoes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "trasacoe": {
+			          "Target": {
+			            "Entity": "trasacoe"
+			          }
+			        },
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "trasacoe"
+			            },
+			            "Object": {
+			              "Role": "calendario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trasacoes_have_calendarios"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "trasacoe"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_trasacoes"
+			        }
+			      ]
+			    }
+			  }
 			}
 		contentType: json
 
