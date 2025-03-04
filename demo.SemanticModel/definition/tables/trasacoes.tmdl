@@ -1,8 +1,15 @@
 table trasacoes
 	lineageTag: 6995cbfe-0be1-461d-a14b-9742c78207c3
 
+	measure Valor_Total = SUM(trasacoes[Total])
+		displayFolder: Medidas
+		lineageTag: 6cd89315-f404-4b40-b0b2-a9e6a188a371
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
 	column ID
 		dataType: double
+		displayFolder: Colunas
 		lineageTag: c28f7037-eb7b-4656-bd14-6ba363a2defd
 		summarizeBy: count
 		sourceColumn: ID
@@ -14,6 +21,7 @@ table trasacoes
 	column Data
 		dataType: dateTime
 		formatString: Long Date
+		displayFolder: Colunas
 		lineageTag: 801ef8d7-92a3-4b7b-b907-cb1ef31a6e7a
 		summarizeBy: none
 		sourceColumn: Data
@@ -34,6 +42,7 @@ table trasacoes
 
 	column Moeda
 		dataType: string
+		displayFolder: Colunas
 		lineageTag: 2ee581ff-bfbf-4d5b-9823-397121fa5345
 		summarizeBy: none
 		sourceColumn: Moeda
